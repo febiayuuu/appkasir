@@ -69,13 +69,13 @@
                     <input type="hidden" name="aksi" value="ubah">
                     <input type="hidden" name="PelangganID" value="<?= $kolom['PelangganID']; ?>">
 
-                    <label for="NamaPelanggan">NamaPelanggan</label>
+                    <label for="NamaPelanggan">Nama Pelanggan</label>
                     <input type="text" name="NamaPelanggan" class="form-control" value="<?= $kolom['NamaPelanggan']; ?>" required>
 
                     <label for="Alamat">Alamat</label>
                     <input type="text" name="Alamat" class="form-control" value="<?= $kolom['Alamat']; ?>" required>
 
-                    <label for="NomorTelpon">NomorTelpon</label>
+                    <label for="NomorTelpon">Nomor Telpon</label>
                     <input type="NomorTelpon" name="NomorTelpon" class="form-control" value="<?= $kolom['NomorTelpon']; ?>" required>
 
                     <button type="submit" class="btn btn-block bg-purple mt-3"> <i class="fas fa-save"></i> Simpan</button>
@@ -118,13 +118,13 @@
                 <form action="aksi/pelanggan.php" method="post">
                     <input type="hidden" name="aksi" value="tambah">
 
-                    <label for="NamaPelanggan">NamaPelanggan</label>
+                    <label for="NamaPelanggan">Nama Pelanggan</label>
                     <input type="text" name="NamaPelanggan" class="form-control" required>
 
                     <label for="Alamat">Alamat</label>
                     <input type="text" name="Alamat" class="form-control" required>
 
-                    <label for="NomorTelpon">NomorTelpon</label>
+                    <label for="NomorTelpon">Nomor Telpon</label>
                     <input type="NomorTelpon" name="NomorTelpon" class="form-control" required>
 
                     <button type="submit" class="btn btn-block bg-purple mt-3"> <i class="fas fa-save"></i> Simpan</button>

@@ -19,6 +19,11 @@ else if($_GET['p']=='pelanggan'){
 }
 
 // batas
+else if($_GET['p']=='tambah'){
+    $title="Tambah Penjualan Baru";
+    $konten="konten/tambah.php";
+}
+
 else if($_GET['p']=='laporan'){
     $title="Laporan Sistem";
     $konten="konten/laporan.php";
