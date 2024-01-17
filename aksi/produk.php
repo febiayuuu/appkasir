@@ -11,7 +11,7 @@ if($_POST){
         $Stok=$_POST['Stok'];                
 
         $sql="INSERT INTO produk (ProdukID,Barcode,NamaProduk,Harga,Stok) VALUES(DEFAULT,'$Barcode','$NamaProduk','$Harga','$Stok')";
-         //echo $sql; // Cek Perintah
+        // echo $sql; // Cek Perintah
         mysqli_query($koneksi,$sql);
         notifikasi($koneksi);
 

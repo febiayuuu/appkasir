@@ -46,7 +46,7 @@
                                 <td><?= $kolom['ProdukID']; ?></td>
                                 <td><?= $kolom['Barcode']; ?></td>
                                 <td><?= $kolom['NamaProduk']; ?></td>
-                                <td><?=number_format( $kolom['Harga']); ?></td>
+                                <td><?= number_format($kolom['Harga']); ?></td>
                                 <td><?= $kolom['Stok']; ?></td>
                                 <td> 
                                     <!-- Tombol Edit     -->
@@ -56,7 +56,7 @@
                                     <a onclick="return confirm('Yakin akan menghapus data ini?')" href="aksi/produk.php?aksi=hapus&ProdukID=<?= $kolom['ProdukID']; ?>"><i class="fas fa-trash"></i></a>
                                 </td>
                             </tr>
-<!-- Modal Ubah User -->
+<!-- Modal Ubah produk -->
 <div class="modal fade" id="modalUbah<?= $kolom['ProdukID']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
