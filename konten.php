@@ -39,6 +39,11 @@ else if($_GET['p']=='infojual'){
     $konten="konten/infojual.php";
 }
 
+else if($_GET['p']=='laporan'){
+    $title="Laporan Penjualan";
+    $konten="konten/laporan.php";
+}
+
 else if($_GET['p']=='backup'){
     $title="Backup Sistem";
     $konten="konten/backup.php";
